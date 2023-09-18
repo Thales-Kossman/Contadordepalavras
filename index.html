@@ -1,0 +1,40 @@
+<!--Criado por Thales Kossman-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <meta name="keywords" content="web site, contador de palavras, inverter texto, letras maisculas,html">
+    <title>Contador de Texto</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <a href="index.html">Contador de caracteres</a>
+        <a href="invertertext.html">Inverter texto</a>
+        <a href="Upswords.html">Letras maisculas</a>
+    </nav>
+    <main>
+        <h1>Contador de Caracteres:</h1>
+        <br>
+        <p>Digite ou cole o texto dentro da caixa:</p>
+        <br>
+        <textarea name="texto" id="texto" cols="30" rows="10" autofocus oninput="countWords()"></textarea>
+
+        <div class="resultado">
+            Caracteres:
+            <span class="number" id="caracteres"></span>
+            Palavras:
+            <span class="number" id="palavras"></span>
+            Linhas:
+            <span class="number" id="linhas"></span>
+        </div>
+    </main>
+</body>
+
+<script src="Js/contador.js"></script>
+
+</html>
