@@ -15,10 +15,10 @@ main {
 
 .menu {
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
     justify-content: flex-start;
     align-items: center;
-    background: rgb(151, 248, 177);
+    background-color: rgb(142, 233, 142);
     margin-bottom: 20px;
     padding: 5px;
 }
@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-    background: rgb(13, 211, 13)
+    background: rgb(13, 211, 66)
 }
 
 #texto {

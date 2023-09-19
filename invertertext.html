@@ -1,14 +1,40 @@
+<!--Criado por Thales Kossman-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inverter Texto</title>
+    <link rel="stylesheet" href="CSS/estilo2.css">
+    <meta name="keywords" content="web site, contador de palavras, inverter texto, letras maisculas,html">
+    <title>Inverter Textos</title>
 </head>
 
 <body>
-    <h1>Pagina em construção</h1>
+    <nav class="menu">
+        <a href="index.html">Contador de caracteres</a>
+        <a href="invertertext.html">Inverter texto</a>
+        <a href="Upswords.html">Letras maisculas</a>
+    </nav>
+    <main>
+        <h1>Inversor de texto:</h1>
+        <br>
+        <p>Digite ou cole o texto dentro da caixa:</p>
+        <br>
+        <textarea name="inverseTxt" id="inverseTxt" cols="30" rows="10" autofocus oninput="inversao()"></textarea>
+
+        <div class="container">
+            <div class="resultado">
+                <span id="resultadoInversao"></span>
+            </div>
+        </div>
+        <button id="btcopiar" onclick="copiarConteudo()">copiar</button>
+    </main>
+
+
 </body>
+
+<script src="Js/inversor.js"></script>
 
 </html>
